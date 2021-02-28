@@ -1,5 +1,67 @@
-html {}
+html {
+    background-color: rgba(141, 140, 140, 0.795);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
 
 header {
-    background-image: url('');
+    background-image: url('https://images.pexels.com/photos/131637/pexels-photo-131637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-inner {
+    margin: 0 auto;
+    padding: 120px 0 70px;
+    position: relative;
+    font-size: 20px;
+}
+
+.custom-logo-title {
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+
+a.brand {
+    position: relative;
+    display: inline-block;
+    padding: 25px 100px;
+    color: #2b2828;
+    background-color: rgba(219, 219, 219, 0.664);
+    text-decoration: none;
+}
+
+.sidebar {
+    border: 5px solid #cac997;
+    background-color: #fff;
+    width: 25%;
+}
+
+.sidebar-logo-site {
+    background-color: rgb(156, 73, 73);
+    height: 400px;
+    padding: 20px;
+    /* position: relative; */
+    text-align: center;
+}
+
+.sidebar-logo-image {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 25px;
+    background-color: rgb(107, 156, 120);
+    background-image: url('/Users/bobchen/Desktop/BobChochola.io/S__9068555.jpg');
+    background-size: cover;
+    /* position: absolute; */
 }
